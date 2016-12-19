@@ -17,6 +17,7 @@ class Chapter1 extends Chapter
     public function declareAVariable()
     {
         // CODE HERE
+		$anyVariable = 'bingo';
 
         // DO NOT EDIT BELOW
         return $anyVariable;
@@ -31,6 +32,7 @@ class Chapter1 extends Chapter
     public function declareAnInt()
     {
         // CODE HERE
+		$shouldBeAnInt = 9;
 
         // DO NOT EDIT BELOW
         return $shouldBeAnInt;
@@ -45,6 +47,7 @@ class Chapter1 extends Chapter
     public function declareAFloat()
     {
         // CODE HERE
+		$shouldBeAFloat = 1.29;
 
         // DO NOT EDIT BELOW
         return $shouldBeAFloat;
@@ -59,6 +62,7 @@ class Chapter1 extends Chapter
     public function declareABoolean()
     {
         // CODE HERE
+		$shouldBeABoolean = true;
 
         // DO NOT EDIT BELOW
         return $shouldBeABoolean;
@@ -73,6 +77,7 @@ class Chapter1 extends Chapter
     public function setNull($shouldBeNull)
     {
         // CODE HERE
+		$shouldBeNull = null;
 
         // DO NOT EDIT BELOW
         return $shouldBeNull;
@@ -87,6 +92,7 @@ class Chapter1 extends Chapter
     public function variableCasting($becomesABoolean)
     {
         // CODE HERE
+		$becomesABoolean = (bool)$becomesABoolean;
 
         // DO NOT EDIT BELOW
         return $becomesABoolean;
@@ -96,11 +102,12 @@ class Chapter1 extends Chapter
      * Exercise 1.7
      *
      * INSTRUCTIONS
-     * A variable named $alreadySet exists. Assign it's value to a new variable named $copiedValue.
+     * A variable named $alreadySet exists. Assign its value to a new variable named $copiedValue.
      */
     public function variableAssignment($alreadySet)
     {
         // CODE HERE
+		$copiedValue = $alreadySet;
 
         // DO NOT EDIT BELOW
         return $copiedValue;
@@ -115,6 +122,7 @@ class Chapter1 extends Chapter
     public function declaringConstants()
     {
         // CODE HERE
+		define("SAMPLE_CONSTANT", 'testing');
 
         // DO NOT EDIT BELOW
         if (SAMPLE_CONSTANT !== 'testing') {
